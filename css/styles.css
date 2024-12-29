@@ -225,7 +225,9 @@ img {
 }
 
 /*BUTTONS*/
-.button {
+
+
+#my {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -233,6 +235,7 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
+
 }
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
