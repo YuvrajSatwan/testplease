@@ -377,9 +377,9 @@ img {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
   color:rgb(255, 255, 255);
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.footer__social {
+.footer__social{
   margin-bottom: var(--mb-4);
 }
 .footer__icon {
