@@ -196,6 +196,12 @@ img {
 .home__title-color {
   color: var(--first-color);
 }
+.soft {
+  color:rgb(136, 37, 202);
+}
+.name{
+  color: blue;
+}
 .home__social {
   display: flex;
   flex-direction: column;
@@ -256,6 +262,7 @@ img {
 }
 .about__subtitle {
   margin-bottom: var(--mb-2);
+
 }
 .about__img {
   justify-self: center;
@@ -369,6 +376,8 @@ img {
 .footer__title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  color:rgb(255, 255, 255);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .footer__social {
   margin-bottom: var(--mb-4);
