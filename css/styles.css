@@ -214,6 +214,8 @@ img {
 }
 .home__social-icon:hover {
   color: var(--first-color);
+  opacity: 1;
+  transform: scale(1.5);
 }
 .home__img {
   position: absolute;
@@ -241,7 +243,7 @@ img {
   transition: 0.3s;
 }
 
-#my {
+.nav_linkkk {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
@@ -249,10 +251,20 @@ img {
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 0.3s;
+  
+}
+.nav_linkkk:hover{ color:;
+  opacity: 1;
+  transform: scale(1.1);
 
 }
+
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  color:#1a1a1a;
+  opacity: 1;
+  transform: scale(1.1);
+
 }
 
 /* ===== ABOUT =====*/
@@ -367,11 +379,11 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
+  background-color:rgb(17, 16, 16);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
-  padding: 2rem 0;
+  padding: 3rem 0;
 }
 .footer__title {
   font-size: 2rem;
@@ -508,4 +520,86 @@ img {
   .home__img {
     width: 450px;
   }
+}.custom-footer {
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.menu-links {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.menu-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  display: inline-block;
+  opacity:0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+.menu-item a:hover{
+  opacity: 1;
+}
+
+.menu-item::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+   width: 2px;
+       height: 0;
+      transform: scaleY(0) translateX(-50%); 
+       transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.menu-item:hover::after {
+    height: 100%; /* 100% height */
+      transform: scaleY(1) translateX(-50%);
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons a {
+  margin: 0 20px;
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Added transform */
+}
+
+.social-icons a:hover {
+  opacity: 1;
+  transform: scale(1.2);/* Scale up slightly */
+  color: rgb(65, 65, 216);
+}
+.tagline{
+  font-size: xx-large;
+  text-align: center;
+  
 }
